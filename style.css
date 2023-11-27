@@ -1,0 +1,88 @@
+body{
+    font-family: poppins;
+    margin:0;
+}
+
+
+
+.navbar-text{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: poppins;
+    line-height: normal;
+    color: black;
+}
+
+.nav.justify-content-center{
+   padding-right: 50px;
+}
+
+button{
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.btn{
+    justify-content: end;
+}
+
+.btn.btn-signup{
+    background-color: #E87A14;
+    color: white;
+    width: 193px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.row.container{
+    width: 1575px;
+    height: 784px;
+    flex-shrink: 0;
+   
+}
+
+.col.leftside{
+    
+    color: aliceblue;
+    width: 150px;
+    height: 230px;
+    margin-top: 20%;
+}
+
+.header6{
+    color: rgba(68, 195, 235, 0.80);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.paragraph{
+    width: 600px;
+    height: 230px;
+    flex-shrink: 0;
+    color: #000;
+
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 4.8px;
+}
+
+.fashion{
+    width: 500px;
+    height: 782px;
+    flex-shrink: 0;
+}
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learnable Assessment</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-sm">
+        <div class="container">
+          <span class="navbar-text"> Viss Fashions </span>
+
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Clothing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+          </ul>
+
+          <button type="button" class="btn">Log in</button>
+          <button onclick="goToSignUP()" type="button" class="btn btn-signup">
+            Sign up
+          </button>
+        </div>
+      </nav>
+
+      <div class="row container">
+        <div class="col leftside">
+          <h6 class="header6">Trendiest Fashion ever</h6>
+          <p class="paragraph">
+            When you are in doubt, <br />
+            wear a Viss Fashions <br />
+            Denim
+          </p>
+
+          <button type="button" class="btn btn-signup">Buy now</button>
+        </div>
+        <div class="col-sm-6 rightside">
+          <img
+            class="fashion"
+            src="C:\Users\user\OneDrive\Desktop\Learnable\fashion.jpeg"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function goToSignUP() {
+        window.location = "http://localhost:3000/signUp";
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
